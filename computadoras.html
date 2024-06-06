@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-esquiv="X-UA-compatible"
+    content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tienda</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+ <body>
+
+
+    <header>
+        <h1>Tienda</h1>
+
+        <div class="container-icon">
+
+            <div class="container-cart-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                  </svg>
+    
+                  <div class="count-products">
+                    <span id="contador-productos">0</span>
+                  </div>
+            </div>
+           
+
+              <div class="container-cart-products
+               hidden-cart">
+
+                <div class="row-product">
+
+
+               <div class="cart-product">
+                
+                <div class="info-cart-product">
+
+                    <span class="cantidad-producto-carrito">0</span>
+                    <p class="titulo-producto-carrito">producto</p>
+                    <span class="precio-producto-carrito">$0</span>
+                </div>
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-close">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                  </svg>
+                  
+               </div>
+            </div>
+
+
+
+
+               <div class="cart-total">
+                <h3>Total:</h3>
+                <span class="total-pagar">$0</span>
+               </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-items">
+        <div class="item">
+            <figure>
+                <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSPo4yBgUnhaOi0gaG8pScU6dfZidi2TLVLOobQaBW3-bXK_FE2ZayNLjAsL-9YYex5awLxFGeZNtRlNQD2-E0Z54bZ7qNHVGqTgA2r0kLQszpKIrdsgOKs&usqp=CAE" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>Laptop Lenovo Ideapad</h2>
+                <p class="price">$6000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="https://m.media-amazon.com/images/I/71kvpcfu5KL._AC_SX679_.jpg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>Huawei  MateBook</h2>
+                <p class="price">$10200</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>  <div class="item">
+            <figure>
+                <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSVdGSgVWc7n5a_k0wfT60g0Lq1L5fTNdA3v4W25kR6tHCsm68VQlnBUekuheFPWYVwP4sdAxmBfErOL0XgWj-inwEv88ook07jLII-C8jHCaM8_IMzhL4J&usqp=CAE" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>Laptop Asus Gaming Rog Strix G16</h2>
+                <p class="price">$30000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>  <div class="item">
+            <figure>
+                <img src="https://i5.walmartimages.com.mx/mg/gm/3pp/asr/abdf9b43-4a57-4e18-8627-9552e135d925.9f75fcaf168c32a34b27dd87d1b0e422.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>HP ProDesk Original con Intel core i5</h2>
+                <p class="price">$5000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="https://resources.claroshop.com/medios-plazavip/t1/1712338416RYZEN5jpg?scale=500&qlty=75" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>Pc Computadora Armada Ryzen</h2>
+                <p class="price">$15000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+
+
+        <div class="item">
+            <figure>
+                <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR0axtQxJadQo62WD_iY6W-aImGRSjNJAc1kOFkC-TxaDy-CTkqniNqfX-6FjwakQNsUo47ravDTyE6yVHVaX0QLNWkz4Zngm66m3hNs78JY1JU2ivCiH_M&usqp=CAE" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>	
+                    Xtreme pc intel quad core</h2>
+                <p class="price">$5800</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+
+    </div>
+
+    
+
+    <script src="index.js"></script>
+
+</body>
+</html>

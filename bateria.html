@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-esquiv="X-UA-compatible"
+    content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tienda</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+ <body>
+
+
+    <header>
+        <h1>Tienda</h1>
+
+        <div class="container-icon">
+
+            <div class="container-cart-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                  </svg>
+    
+                  <div class="count-products">
+                    <span id="contador-productos">0</span>
+                  </div>
+            </div>
+           
+
+              <div class="container-cart-products
+               hidden-cart">
+
+                <div class="row-product">
+
+
+               <div class="cart-product">
+                
+                <div class="info-cart-product">
+
+                    <span class="cantidad-producto-carrito">0</span>
+                    <p class="titulo-producto-carrito">producto</p>
+                    <span class="precio-producto-carrito">$0</span>
+                </div>
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-close">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                  </svg>
+                  
+               </div>
+            </div>
+
+
+
+
+               <div class="cart-total">
+                <h3>Total:</h3>
+                <span class="total-pagar">$0</span>
+               </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-items">
+        <div class="item">
+            <figure>
+                <img src="https://i5.walmartimages.com.mx/mg/gm/3pp/asr/419e31d5-7c4a-4593-8c71-db7f8cb6bf4e.732a6b8ff6c8c4017fdc203c933821ae.jpeg?odnHeight=208&odnWidth=208&odnBg=FFFFFF" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2> Power Bank de Adata AP20000QCD-DGT-CWH</h2>
+                <p class="price">$515</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwS9WZoFroNGA9bnvIKd77G3fB6yg7JK-FZHF6mLoHQIz2Buk3R_qyXwewhxSVQ6rhSJc&usqp=CAU" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>Batería Para Cargar Teléfono, Mxgdh-001, 80000ma</h2>
+                <p class="price">$2900</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>  <div class="item">
+            <figure>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZawRjIHOMOnCrvFc7Xka2UE-e6qTZq8buNsEJf9FXsPZ648PEp2_EWN5AOHenY7C0xOo&usqp=CAU" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>Power Bank Inalámbrica Pure Gear 10000 MAH</h2>
+                <p class="price">$1000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>  <div class="item">
+            <figure>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpWUR4WVyZU22X7hqeFRs6FoDZDT4vAq1Jng&s" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>Power Bank Bateria Portatil </h2>
+                <p class="price">$160</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPWMXBc56gNpjB369qU1eKlL0alKSclHZAGQ&s" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>Mini Bateria Portatil</h2>
+                <p class="price">$122</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+
+
+        <div class="item">
+            <figure>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStgV9QWrvknRn9H2xNBUS-wKrmyz_dWXzWvpVDhllO2Q&s" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>Bateria Portatil/ Power Bank</h2>
+                <p class="price">$179</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+
+    </div>
+
+    
+
+    <script src="index.js"></script>
+
+</body>
+</html>
